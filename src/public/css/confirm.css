@@ -1,0 +1,129 @@
+.confirm__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1512px;
+    color: #8B7969;
+}
+
+.confirm__heading {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.confirm__heading h2 {
+    font-size: 35px;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form {
+    margin: 0 auto;
+    width: 972px;
+}
+
+.confirm-table {
+    border: 1px solid #E0DFDE;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__row {
+    height: 70px;
+}
+
+.confirm-table__row:last-child {
+    height: 116px;
+}
+
+.confirm-table__header {
+    padding: 15px 60px;
+    width: 305px;
+    border-bottom: 1px solid #E0DFDE;
+    background-color: #BAA899;
+    font-weight: normal;
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+}
+
+.confirm-table__text {
+    padding: 15px 50px;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+.confirm-table__text > span {
+    padding: 15px 2px;
+    font-family: "Inika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.confirm-table__textarea {
+    padding: 18px 50px;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+.confirm-table__text input,
+.confirm-table__textarea textarea {
+    outline: none;
+    border: none;
+    color: #8B7969;
+    font-family: "Inika", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.confirm-table__textarea textarea {
+    resize: none;
+}
+
+.confirm-table__text input[name^="last_name"] {
+    width: 70px;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__textarea {
+    border-bottom-width: 0;
+}
+
+.form__button {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.form__button-submit {
+    background-color: #82756A;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 42px;
+    width: 124px;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form__button-back {
+    border: none;
+    text-decoration: underline 1px solid;
+    text-underline-offset: 3px;
+    background-color: #fff;
+    color: #8B7969;
+    cursor: pointer;
+    height: 42px;
+    width: 124px;
+    font-size: 20px;
+    position: absolute;
+    left: 60%;
+    transform: translate(-20%, -70px);
+}

@@ -1,0 +1,38 @@
+.thanks__content {
+    margin: 0 auto;
+    max-width: 1512px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Inika", sans-serif;
+    font-style: normal;
+    position: relative;
+}
+
+.thanks__subtitle {
+    color: #8B7969;
+    font-weight: bold;
+    font-size: clamp(11px, 1.95vw, 30px);
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.thanks__title {
+    color: rgba(139, 121, 105, 0.05);
+    font-weight: 400;
+    font-size: clamp(100px,18vw,280px);
+}
+
+.home-button {
+    color: #fff;
+    background-color: #82756A;
+    text-decoration: none;
+    font-size: clamp(15px, 1.3vw, 20px);
+    padding: 10px 40px;
+    display: inline-block;
+    position: absolute;
+    top: 56%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,35 @@
+.header {
+    background: #fff;
+    height: 100px;
+    border-bottom:1px solid #E0DFDE;
+    font-family: "Inika", serif;
+    font-style: normal;
+}
+
+.header__inner {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1512px;
+    position: relative;
+}
+
+.header__logo {
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 400;
+    color: #8B7969;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-nav {
+    position: absolute;
+    right: 5%;
+    transform: translateY(-10%);
+}
+
+
+
