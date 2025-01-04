@@ -3,7 +3,7 @@
 ## 環境構築
 
 ### Dockerビルド
-- 1.git clone リンク
+- 1.git clone git@github.com:ghshzk/confirmation-test.git
 - 2.docker-compose up -d --build
 
 
