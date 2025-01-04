@@ -27,7 +27,7 @@
 
 .form__group {
     display: flex;
-    margin-bottom: 30px;
+    margin-top: 25px;
     width: 100%;
 }
 
@@ -37,12 +37,16 @@
     font-size: 20px;
 }
 
+.form__group-title:nth-of-type(2){
+    margin: 20px 0;
+}
+
+
 .form__group-content {
     width: 100%;
     display: flex;
     gap: 15px;
 }
-
 
 .form__input--text {
     display: flex;
@@ -72,6 +76,7 @@
     border: none;
     color: #BEB1A6;
     text-align: left;
+    font-family: "Inika", sans-serif;;
 }
 
 .form__input--textarea {
@@ -175,7 +180,9 @@ input::placeholder, textarea::placeholder {
 }
 
 .form__error {
+    width:576px;
     height: auto;
     color: #FF9494;
-    margin: 0;
+    margin-left: 290px;
+    text-align: left;
 }

@@ -22,16 +22,15 @@
                     <input type="text" name="first_name" placeholder="例: 太郎" value="{{ old('first_name', $input['first_name'] ?? '') }}">
                 </div>
             </div>
-            <div class="form__error">
-                @error('last_name')
-                    {{ $message }}
-                @enderror
-            </div>
-            <div class="form__error">
-                @error('first_name')
-                    {{ $message }}
-                @enderror
-            </div>
+        </div>
+        <div class="form__error">
+            @error('last_name')
+                {{ $message }}
+            @enderror
+            &emsp;
+            @error('first_name')
+                {{ $message }}
+            @enderror
         </div>
 
         <div class="form__group">
@@ -46,11 +45,11 @@
                     <input type="radio" name="gender" value="3" {{ old('gender', $input['gender'] ?? '') == '3' ? 'checked' : '' }}><span>その他</span>
                 </div>
             </div>
-            <div class="form__error">
-                @error('gender')
-                    {{ $message }}
-                @enderror
-            </div>
+        </div>
+        <div class="form__error">
+            @error('gender')
+                {{ $message }}
+            @enderror
         </div>
 
         <div class="form__group">
@@ -63,11 +62,11 @@
                     <input type="text" name="email" placeholder="例: test@example.com" value="{{ old('email', $input['email'] ?? '') }}">
                 </div>
             </div>
-            <div class="form__error">
-                @error('email')
-                    {{ $message }}
-                @enderror
-            </div>
+        </div>
+        <div class="form__error">
+            @error('email')
+                {{ $message }}
+            @enderror
         </div>
 
         <div class="form__group">
@@ -82,11 +81,11 @@
                     <input type="text" name="tel3" id="tel3" maxlength="4" placeholder="5678" value="{{ old('tel3', $input['tel3'] ?? '') }}">
                 </div>
             </div>
-            <div class="form__error">
-                @error('tel')
-                    {{ $message }}
-                @enderror
-            </div>
+        </div>
+        <div class="form__error">
+            @error('tel')
+                {{ $message }}
+            @enderror
         </div>
 
         <div class="form__group">
@@ -99,11 +98,11 @@
                     <input type="text" name="address" placeholder="例: 東京都渋谷区千駄ヶ谷1-2-3" value="{{ old('address', $input['address'] ?? '') }}">
                 </div>
             </div>
-            <div class="form__error">
-                @error('address')
-                    {{ $message }}
-                @enderror
-            </div>
+        </div>
+        <div class="form__error">
+            @error('address')
+                {{ $message }}
+            @enderror
         </div>
 
         <div class="form__group">
@@ -132,11 +131,11 @@
                     </select>
                 </div>
             </div>
-            <div class="form__error">
-                @error('category_id')
-                    {{ $message }}
-                @enderror
-            </div>
+        </div>
+        <div class="form__error">
+            @error('category_id')
+                {{ $message }}
+            @enderror
         </div>
         
         <div class="form__group">
@@ -149,11 +148,11 @@
                     <textarea name="detail" placeholder="お問い合わせ内容をご記載ください">{{ old('detail', $input['detail'] ?? '') }}</textarea>
                 </div>
             </div>
-            <div class="form__error">
-                @error('detail')
-                    {{ $message }}
-                @enderror
-            </div>
+        </div>
+        <div class="form__error">
+            @error('detail')
+                {{ $message }}
+            @enderror
         </div>
 
         <div class="form__button">
